@@ -1,0 +1,184 @@
+Adyen==3.0.0
+amqp==5.0.1
+aniso8601==7.0.0
+arrow @ file:///D:/bld/arrow_1598229591653/work
+asgiref==3.2.10
+atomicwrites==1.4.0
+attrs @ file:///tmp/build/80754af9/attrs_1600298409949/work
+Babel==2.8.0
+backcall==0.2.0
+beautifulsoup4==4.7.1
+billiard==3.6.3.0
+binaryornot==0.4.4
+blessings==1.7
+blinker==1.4
+boto3==1.15.11
+botocore==1.18.11
+braintree==4.4.0
+brotlipy==0.7.0
+cachetools==4.1.1
+cairocffi==1.1.0
+CairoSVG==2.4.2
+celery==5.0.0
+certifi==2020.6.20
+cffi @ file:///D:/bld/cffi_1600276628150/work
+chardet @ file:///D:/bld/chardet_1600358690877/work
+click==7.1.2
+click-didyoumean==0.0.3
+click-repl==0.1.6
+colorama==0.4.3
+cookiecutter==1.7.2
+coverage==5.3
+cryptography @ file:///D:/bld/cryptography_1600960404355/work
+cssselect2==0.3.0
+decorator==4.4.2
+defusedxml==0.6.0
+dj-database-url==0.5.0
+dj-email-url==1.0.1
+Django==3.1.2
+django-appconf==1.0.4
+django-cache-url==3.1.2
+django-configurations==2.2
+django-countries==6.1.3
+django-filter==2.4.0
+django-graphql-jwt==0.3.1
+django-js-asset==1.2.2
+django-measurement==3.2.3
+django-model-utils==4.0.0
+django-mptt==0.11.0
+django-nose==1.4.7
+django-phonenumber-field==5.0.0
+django-prices==2.2.0
+django-prices-openexchangerates==1.1.0
+django-prices-vatlayer==1.1.0
+django-render-block==0.8
+django-storages==1.10.1
+django-templated-email==2.3.0
+django-unique-upload==0.2.1
+django-versatileimagefield==2.0
+djangorestframework==3.12.1
+draftjs-sanitizer==1.0.0
+enmerkar==0.7.1
+factory-boy==3.1.0
+Faker==4.4.0
+flake8==3.8.4
+future==0.18.2
+google-api-core==1.22.4
+google-auth==1.22.1
+google-cloud==0.34.0
+google-cloud-core==1.4.3
+google-cloud-pubsub==2.1.0
+google-i18n-address==2.4.0
+google-measurement-protocol==1.1.0
+googleapis-common-protos==1.52.0
+graphene==2.1.8
+graphene-django==2.13.0
+graphene-federation==0.1.0
+graphql-core==2.3.2
+graphql-relay==2.0.1
+grpc-google-iam-v1==0.12.3
+grpcio==1.32.0
+gunicorn==20.0.4
+html-to-draftjs==1.0.1
+html5lib==1.1
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
+iniconfig @ file:///tmp/build/80754af9/iniconfig_1596827328212/work
+ipdb==0.13.4
+ipython==7.18.1
+ipython-genutils==0.2.0
+jaeger-client==4.3.0
+jedi==0.17.2
+Jinja2==2.11.2
+jinja2-time==0.2.0
+jmespath==0.10.0
+joblib==0.17.0
+jsonfield==3.1.0
+kombu==5.0.2
+libcst==0.3.12
+livereload==2.6.3
+lunr==0.5.8
+lxml==4.5.2
+Markdown==3.2.2
+MarkupSafe @ file:///D:/bld/markupsafe_1600368513338/work
+maxminddb==2.0.2
+maxminddb-geolite2==2018.703
+mccabe==0.6.1
+measurement==3.2.0
+mkdocs==1.1.2
+mock==4.0.2
+more-itertools @ file:///tmp/build/80754af9/more-itertools_1598884071673/work
+mpmath==1.1.0
+mypy-extensions==0.4.3
+newrelic==5.20.0.149
+nltk==3.5
+nose==1.3.7
+nose-progressive==1.5.2
+oauthlib==3.1.0
+opentracing==2.3.0
+packaging==20.4
+parso==0.7.1
+petl==1.6.8
+phonenumberslite==8.12.10
+pickleshare==0.7.5
+Pillow==7.2.0
+pluggy==0.13.1
+poyo==0.5.0
+prices==1.1.0
+promise==2.3
+prompt-toolkit==3.0.7
+proto-plus==1.10.1
+protobuf==3.13.0
+psycopg2-binary==2.8.6
+py @ file:///tmp/build/80754af9/py_1593446248552/work
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycodestyle==2.6.0
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
+pyflakes==2.2.0
+Pygments==2.7.1
+PyJWT==1.7.1
+pyOpenSSL==19.1.0
+pyparsing==2.4.7
+Pyphen==0.9.5
+PySocks==1.7.1
+pytest==0.0.0
+python-dateutil==2.8.1
+python-json-logger @ file:///tmp/build/80754af9/python-json-logger_1601658027222/work
+python-magic==0.4.18
+python-magic-bin==0.4.14
+python-slugify @ file:///home/conda/feedstock_root/build_artifacts/python-slugify_1593573453419/work
+pytimeparse==1.1.8
+pytz==2020.1
+PyYAML==5.3.1
+razorpay==1.2.0
+regex==2020.9.27
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1592425495151/work
+rsa==4.6
+Rx==1.6.1
+s3transfer==0.3.3
+sentry-sdk==0.18.0
+singledispatch==3.4.0.3
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
+soupsieve==2.0.1
+sqlparse==0.3.1
+stripe==2.54.0
+sympy==1.6.2
+text-unidecode==1.3
+threadloop==1.0.2
+thrift==0.13.0
+tinycss2==1.0.2
+toml @ file:///tmp/build/80754af9/toml_1592853716807/work
+tornado==6.0.4
+tqdm==4.50.0
+traitlets==5.0.4
+typing-extensions==3.7.4.3
+typing-inspect==0.6.0
+Unidecode==1.1.1
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1595434816409/work
+vine==5.0.0
+wcwidth==0.2.5
+WeasyPrint==51
+webencodings==0.5.1
+whichcraft==0.6.1
+win-inet-pton==1.1.0
+wincertstore==0.2
