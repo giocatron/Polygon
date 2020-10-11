@@ -163,10 +163,10 @@ ENABLE_ACCOUNT_CONFIRMATION_BY_EMAIL = get_bool_from_env(
     "ENABLE_ACCOUNT_CONFIRMATION_BY_EMAIL", True
 )
 
-ENABLE_SSL = get_bool_from_env("ENABLE_SSL", False)
+ENABLE_SSL = get_bool_from_env("ENABLE_SSL", True)
 
-if ENABLE_SSL:
-    SECURE_SSL_REDIRECT = not DEBUG
+#if ENABLE_SSL:
+#    SECURE_SSL_REDIRECT = not DEBUG
 
 DEFAULT_FROM_EMAIL = os.environ.get("DEFAULT_FROM_EMAIL", EMAIL_HOST_USER)
 
@@ -400,7 +400,7 @@ TEST_RUNNER = "polygon.tests.runner.PytestTestRunner"
 
 PLAYGROUND_ENABLED = get_bool_from_env("PLAYGROUND_ENABLED", True)
 
-ALLOWED_HOSTS = get_list(os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1"))
+ALLOWED_HOSTS = get_list(os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,zizopixels-core.herokuapp.com"))
 ALLOWED_GRAPHQL_ORIGINS = get_list(os.environ.get("ALLOWED_GRAPHQL_ORIGINS", "*"))
 
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
