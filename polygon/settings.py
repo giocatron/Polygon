@@ -61,13 +61,22 @@ ALLOWED_CLIENT_HOSTS = get_list(ALLOWED_CLIENT_HOSTS)
 
 INTERNAL_IPS = get_list(os.environ.get("INTERNAL_IPS", "127.0.0.1"))
 
+"""
+DATABASES = {
+    'default': dj_database_url.config(
+        default='postgres://ehiuljjj:TMVqCVt6AeRbbFGUQtnuyEieJ2aybL3B@satao.db.elephantsql.com:5432/ehiuljjj',
+        conn_max_age=int(os.getenv('POSTGRES_CONN_MAX_AGE', 600))
+    )
+}
+"""
+
+
 DATABASES = {
     'default': dj_database_url.config(
         default='postgres://root:yaKhudaKhair@localhost:5432/polygon',
         conn_max_age=int(os.getenv('POSTGRES_CONN_MAX_AGE', 600))
     )
 }
-
 
 TIME_ZONE = "UTC"
 LANGUAGE_CODE = "en"

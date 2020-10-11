@@ -125,12 +125,12 @@ IMAGES_MAPPING = {
     116: ["saleordemoproduct_cl_bogo02_1.png"],
     117: ["saleordemoproduct_cl_bogo03_1.png"],
     118: ["saleordemoproduct_cl_bogo04_1.png", "saleordemoproduct_cl_bogo04_2.png"],
-    119: ["polygon-digital-03_1.png"],
-    120: ["polygon-digital-03_2.png"],
-    121: ["polygon-digital-03_3.png"],
-    122: ["polygon-digital-03_4.png"],
-    123: ["polygon-digital-03_5.png"],
-    124: ["polygon-digital-03_6.png"],
+    119: ["saleor-digital-03_1.png"],
+    120: ["saleor-digital-03_2.png"],
+    121: ["saleor-digital-03_3.png"],
+    122: ["saleor-digital-03_4.png"],
+    123: ["saleor-digital-03_5.png"],
+    124: ["saleor-digital-03_6.png"],
 }
 
 
