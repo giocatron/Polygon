@@ -42,7 +42,7 @@ ROOT_URLCONF = "polygon.urls"
 WSGI_APPLICATION = "polygon.wsgi.application"
 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+    ('Zizo', 'zizopixels11@gmail.com'),
 )
 MANAGERS = ADMINS
 
