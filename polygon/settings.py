@@ -42,13 +42,13 @@ ROOT_URLCONF = "polygon.urls"
 WSGI_APPLICATION = "polygon.wsgi.application"
 
 ADMINS = (
-    ('Zizo', 'zizopixels11@gmail.com'),
+    ('nano', 'nanofeels@gmail.com'),
 )
 MANAGERS = ADMINS
 
 _DEFAULT_CLIENT_HOSTS = "localhost,127.0.0.1"
 
-ALLOWED_CLIENT_HOSTS = os.environ.get("ALLOWED_CLIENT_HOSTS", "localhost,127.0.0.1,zizopixels11.herokuapp.com,zizopixels11-admin.herokuapp.com,zizopixels11-core.herokuapp.com")
+ALLOWED_CLIENT_HOSTS = os.environ.get("ALLOWED_CLIENT_HOSTS", "localhost,127.0.0.1,nanofeels.herokuapp.com,nanofeelsadmin.herokuapp.com,nanofelesdemo.herokuapp.com")
 if not ALLOWED_CLIENT_HOSTS:
     if DEBUG:
         ALLOWED_CLIENT_HOSTS = _DEFAULT_CLIENT_HOSTS
@@ -60,15 +60,6 @@ if not ALLOWED_CLIENT_HOSTS:
 ALLOWED_CLIENT_HOSTS = get_list(ALLOWED_CLIENT_HOSTS)
 
 INTERNAL_IPS = get_list(os.environ.get("INTERNAL_IPS", "127.0.0.1"))
-
-"""
-DATABASES = {
-    'default': dj_database_url.config(
-        default='postgres://ehiuljjj:TMVqCVt6AeRbbFGUQtnuyEieJ2aybL3B@satao.db.elephantsql.com:5432/ehiuljjj',
-        conn_max_age=int(os.getenv('POSTGRES_CONN_MAX_AGE', 600))
-    )
-}
-"""
 
 
 DATABASES = {
@@ -400,7 +391,7 @@ TEST_RUNNER = "polygon.tests.runner.PytestTestRunner"
 
 PLAYGROUND_ENABLED = get_bool_from_env("PLAYGROUND_ENABLED", True)
 
-ALLOWED_HOSTS = get_list(os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,zizopixels11.herokuapp.com,zizopixels11-admin.herokuapp.com,zizopixels11-core.herokuapp.com"))
+ALLOWED_HOSTS = get_list(os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,nanofeels.herokuapp.com,nanofeelsadmin.herokuapp.com,nanofelesdemo.herokuapp.com"))
 ALLOWED_GRAPHQL_ORIGINS = get_list(os.environ.get("ALLOWED_GRAPHQL_ORIGINS", "*"))
 
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
